@@ -1,13 +1,12 @@
 import React from "react";
 
-const contactList = () =>{
+const ContactList = (props) =>{
+    console.log(props);
    return(
-       {
-           
-       }
+    <div className="container ui celled list">ContactList</div>
    );
 
    
 }
 
-export default contactList;
+export default ContactList;
