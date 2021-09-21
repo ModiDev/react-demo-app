@@ -7,7 +7,7 @@ import ContactList from './ContactList';
 
 function App() {
 
-  const contactList = [
+  const contacts = [
     {
        id:1,
       "name":"Moditha Dassanayake",
@@ -36,6 +36,13 @@ function App() {
       "age":30
 
     },   
+    {
+      id:5,
+     "name":"Kavintha Oshadha",
+     "email":"k.oshadha@gmail.com",
+     "age":18
+
+   },   
   ];
 
   return (
@@ -43,7 +50,7 @@ function App() {
       <Header/>
       <Todo/>
       <AddContact/>
-      <ContactList contactList={contactList}/>
+      <ContactList contactsList={contacts}/>
     </div>
   );
 }
