@@ -9,9 +9,9 @@ const {name,email,age} = props.contact;
     <div className="item">
         <img className="ui avatar image" src={user} alt="user"/>
         <div className="content">
-            <div key="name" className="header">{name}</div>
-            <div key="email">{email}</div>
-            <div key="age">{age}</div>
+            <div className="header">{name}</div>
+            <div>{email}</div>
+            <div>{age}</div>
         </div>
         <i className="trash alternate outline icon" style={{color:"red" , marginTop:"7px"}}>
         </i>

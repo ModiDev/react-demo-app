@@ -24,7 +24,7 @@ class AddContact extends React.Component{
                 <form className="ui form" onSubmit={this.add}>
                     <div className="field">
                         <label>Name</label>
-                        <input type="text" key="name"
+                        <input type="text" 
                         name="name" 
                         placeholder="Enter Your Name" 
                         value ={this.state.name}
@@ -32,7 +32,7 @@ class AddContact extends React.Component{
                     </div>
                     <div className="field">
                         <label>Email</label>
-                        <input type="email" key="email"
+                        <input type="email" 
                         name="email" 
                         value = {this.state.email}
                         onChange= {(e) => this.setState({email:e.target.value})}
@@ -40,7 +40,7 @@ class AddContact extends React.Component{
                     </div>
                     <div className="field">
                         <label>Age</label>
-                        <input type="number" key="age"
+                        <input type="number" 
                         name="age" 
                         value= {this.state.age}
                         onChange = {(e)=> this.setState({age:e.target.value})}
